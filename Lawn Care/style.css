@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.header{
+    background-color: black;
+    color: white;
+    padding-block: 15px;
+
+}
+.header2 a{
+    text-decoration: none;
+    color: white;
+}
+.header2{
+    display:grid;
+    text-align: right;
+}
+
+.content .c-top img{
+    width: 100vw;
+    height: 50vh;
+    margin: -15px;
+    color: brown;
+}
+
+.ct-top{
+    text-align: center;
+}
+
+.content .c-bot img{
+    width: 100vw;
+    height: 50vh;
+    margin: -15px;
+}
+
+.ct-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vw;
+    text-align: center;
+}
+.img1{
+    width: 40vw;
+    height: 40vh;
+    background-image: url("Assets/fall-pile.png");
+    background-size: cover;
+    
+}
+
+.img1:hover{
+    background-image: url("Assets/image-4.jpg");
+    background-size: cover;
+}
+.img2{
+    width: 40vw;
+    height: 40vh;
+    background-image: url("Assets/flower.png");
+    background-size:cover;
+}
+
+.img2:hover{
+    background-image: url("Assets/image-3.jpg");
+    background-size: cover;
+    
+}
+.footer{
+    justify-content: space-between;
+    background-color:black;
+    text-align: center;
+    padding-block: 3vh;
+    color: white;
+}
+
+.sos1{
+    width: 10vw;
+    height: 10vh;
+    background-image: url("Assets/instagram.png");
+    background-size: cover;
+    
+}
+.sos1{
+    width: 10vw;
+    height: 10vh;
+    background-image: url("Assets/twitter.png");
+    background-size: cover;
+    
+}
